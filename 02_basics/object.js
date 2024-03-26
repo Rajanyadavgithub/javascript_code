@@ -1,5 +1,5 @@
 
-const mySym = Symbol("key1")
+const mySym = Symbol("mykey1")
 const obj = {
     name: "Rajan",
     age: 18,
@@ -11,11 +11,11 @@ const obj = {
     [mySym]:"mykey1"  //Symbol
 }
 
-//console.log(obj);
+console.log(obj);
 //console.log(obj["email"])
 
 // console.log(obj["full name"]);
-// console.log(obj[mySym]);        //Symbol data type 
+//console.log(obj[mySym]);        //Symbol data type 
 
 
 obj.email = "rajan@chargpt.com"
@@ -27,10 +27,10 @@ obj.email = "rajan@google.com"
 //console.log(obj);
 
 obj.greeting = function() {
-    console.log("hello obj");
+    //console.log("hello obj");
 }
 
-console.log(obj.greeting);
+//console.log(obj.greeting);
 //console.log(obj.greeting());
 
 
